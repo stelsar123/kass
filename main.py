@@ -28,6 +28,7 @@ def switch_frame(origin,goal):
 def thread(machine_learning=True):
     global start_time, t1 
     if machine_learning:
+        start_time = time.time()
         button.config(state=tk.DISABLED)
         label3.grid(row=7, column=3)
         t2=threading.Thread(target= lambda: print_time(label3, main_frame))
