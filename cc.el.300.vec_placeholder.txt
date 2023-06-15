@@ -1,0 +1,2 @@
+Replace this file with cc.el.300.vec
+You can download it from: https://fasttext.cc/docs/en/crawl-vectors.html
